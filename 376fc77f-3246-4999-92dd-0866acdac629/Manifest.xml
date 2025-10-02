@@ -32,6 +32,15 @@
 			<DefaultValue>elCapitan.jpg</DefaultValue>
 		</Setting>
 		<Setting Name="Image6" IsServerOnly="true">
+			<DefaultValue>bigSur.JPG</DefaultValue>
+		</Setting>
+		<Setting Name="Image7" IsServerOnly="true">
+			<DefaultValue>lakeLure.jpg</DefaultValue>
+		</Setting>
+		<Setting Name="Image8" IsServerOnly="true">
+			<DefaultValue>lookingGlassFalls.jpg</DefaultValue>
+		</Setting>
+		<Setting Name="Image9" IsServerOnly="true">
 			<DefaultValue>lightningCat.jpg</DefaultValue>
 		</Setting>
 	</Settings>
