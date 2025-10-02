@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionManifest>
+	<Version>1.0</Version>
+	<Name>Select Guest Page Background</Name>
+	<Author>swlinak</Author>
+	<ShortDescription>Choose from a few pre-configured images for the Guest page's background.</ShortDescription>
+	<Components>
+		<ClientScriptInitializer SourceFile="Initializer.js" />
+		<WebServiceReference SourceFile="Service.ashx" />
+		<WebResourcesDefinition SourceFile="Web.en-US.resx" />
+	</Components>
+	<Settings>
+		<Setting Name="SelectedBackgroundImage" IsServerOnly="false">
+			<DefaultValue></DefaultValue>
+		</Setting>
+		<Setting Name="Image0" IsServerOnly="true">
+			<DefaultValue>stoneMountain.jpg</DefaultValue>
+		</Setting>
+		<Setting Name="Image1" IsServerOnly="true">
+			<DefaultValue>oregonCoast.jpg</DefaultValue>
+		</Setting>
+		<Setting Name="Image2" IsServerOnly="true">
+			<DefaultValue>hurricaneRidge.JPG</DefaultValue>
+		</Setting>
+		<Setting Name="Image3" IsServerOnly="true">
+			<DefaultValue>marinHeadlands.jpg</DefaultValue>
+		</Setting>
+		<Setting Name="Image4" IsServerOnly="true">
+			<DefaultValue>yosemiteTunnelView.jpg</DefaultValue>
+		</Setting>
+		<Setting Name="Image5" IsServerOnly="true">
+			<DefaultValue>elCapitan.jpg</DefaultValue>
+		</Setting>
+		<Setting Name="Image6" IsServerOnly="true">
+			<DefaultValue>lightningCat.jpg</DefaultValue>
+		</Setting>
+	</Settings>
+</ExtensionManifest>
