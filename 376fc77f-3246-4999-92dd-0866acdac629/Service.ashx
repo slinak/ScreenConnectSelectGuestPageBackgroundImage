@@ -15,7 +15,7 @@ public class SelectGuestBackgroundImageService : WebServiceBase
 	{
 		List<string> images = new List<string>();
 		
-		for (int i = 0; i < 7; i++)
+		for (int i = 0; i < 10; i++)
 			images.Add(ExtensionContext.Current.GetSettingValue("Image" + i));
 			
 		return images;
